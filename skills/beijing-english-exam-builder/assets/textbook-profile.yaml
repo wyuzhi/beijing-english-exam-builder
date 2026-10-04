@@ -1,0 +1,23 @@
+# 可复制到教学项目。空值表示未知，不表示没有；不要求教师逐项手填。
+profile_id: null
+class_alias: null
+stage: null                 # 初中 / 高中
+grade: null                 # 初一～高三
+publisher: null             # 北师大 / 人教 / 外研 / 实际出版社
+series: null                # 以封面/版权页为准
+edition_or_standard: null   # 新旧版本需区分
+volume: null                # 上下册 / 必修册 / 选择性必修册
+unit_or_lessons: null
+sources: []                 # 文件名＋页码/图片号，或官方URL＋访问日期
+alignment_status: "待核对"
+theme: null
+target_vocabulary: []
+target_grammar: []
+target_skills: []
+already_taught: []
+not_yet_taught: []
+allowed_extensions: []
+student_level_notes: null
+verified_dimensions: []     # 例如主题、词汇、语法，分别记核验状态
+unverified_items: []
+last_checked: null

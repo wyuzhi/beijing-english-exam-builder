@@ -1,0 +1,4 @@
+interface:
+  display_name: "北京初高中英语分层出题"
+  short_description: "按教材年级分初高中模式，参考可见北京精品样卷编制分层练习与解析"
+  default_prompt: "请使用 $beijing-english-exam-builder，按我提供的教材、年级和原题生成四个难度递增版本，并分别给出学生卷和教师答案解析。"

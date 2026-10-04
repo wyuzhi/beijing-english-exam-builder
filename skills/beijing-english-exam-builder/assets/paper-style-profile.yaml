@@ -1,0 +1,27 @@
+profile_id: null
+source_platform: "学科网/组卷网"
+requested_quality_reference: "VIP/精品" # 参考请求，不是本卷质量认证
+target_region: "北京"
+stage: null
+grade: null
+semester: null
+exam_type: null
+paper_mode: null              # 初中用户定制 / 高中北京 / 真实考试仿真
+source_papers: []             # 每份记title/url_or_path/exam_date/accessed_at/visibility
+                             # 另记observed_platform_labels/read_pages_or_items/unread_scope/full_text_read
+verification_status: "尚未读取样卷题干"
+section_order: []             # 实际样卷观察；不直接覆盖用户模式
+adopted_section_order: []     # 本卷最终采用模块，与用户模式一致
+reading_passage_count: null
+reading_items_per_passage: []
+reading_genres: []
+reading_question_skills: []
+distractor_patterns: []
+cloze_features: []
+grammar_scope: []
+grammar_item_formats: []     # 区分grammar_mcq与grammar_gap_fill
+writing_features: []
+observed_word_counts: []       # 实际统计才填数值
+user_overrides: []             # 如高中A/B记叙，C/D说明或议论
+unverified_items: []
+notes: null

@@ -1,0 +1,41 @@
+# 可选任务卡：自然语言提出要求也可以，不必填满。
+mode: "递进变式"            # 教材同步 / 递进变式 / 平行卷 / 专项 / 组卷 / 错题补练
+textbook_profile: null       # 当前项目中的档案路径，或直接用会话材料
+stage: null                  # 初中 / 高中
+grade: null
+paper_mode: null             # 初中用户定制 / 高中北京 / 真实考试仿真；单项任务可空
+target_exam: null            # 高中综合卷先确定校考/区统考/北京高考及学期或年份
+scope: null
+source_materials: []
+item_types: ["reading"]
+variant_count: 4             # 整篇/原题的版本数，与下面小题数不同
+reading_questions_per_variant: 4
+reading_passages_per_paper: 4 # 仅综合卷；单篇改编不适用
+paper_style_profile: null
+genre_preferences: null     # 默认按学段采用用户偏好，可由当次任务覆盖
+rewrite_passage: true        # false表示同篇分层设问
+question_counts_by_type: {}  # 非阅读题另指定，例如cloze每版空数
+paper_defaults:             # 仅对应学段的综合卷启用；不扩写单项任务
+  junior_custom:
+    modules: ["grammar_mcq", "cloze", "reading", "writing"]
+    grammar_mcq_items: 10
+    cloze_passages: 1
+    cloze_items: 10
+    reading_passages: 4
+    reading_items_per_passage: 4
+    writing_tasks: 1
+    excluded_by_default: ["grammar_gap_fill", "reading_response", "sentence_expression"]
+  senior_beijing:
+    core_modules: ["cloze", "grammar_gap_fill", "reading", "writing"]
+    reading_passages: 4
+    require_grade_and_exam_target: true
+    additional_modules: []   # 七选五/阅读表达/听力等按对应北京实际样本配置
+    verified_source_profile: null
+core_targets: []
+constraints: []
+exam_profile: null           # 仅仿真考试需年份、地区、真实样卷依据
+total_score: null
+time_minutes: null
+output_formats: ["docx"]
+include_student_version: true
+include_teacher_version: true
